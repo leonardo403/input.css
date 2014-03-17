@@ -20,7 +20,7 @@ input[data-columns='1-2'] {
 input[data-columns='2'] {
     width: 50%;
     position:fixed;
-    bottom:40%;
+    bottom:50%;
 }
 input[data-columns='3'] {
     width:50%;
