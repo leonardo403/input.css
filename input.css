@@ -1,17 +1,11 @@
-h2 {
-  font-family: sans-serif; 
-  font-weight: lighter;
-}
-
 form {
   float: left; 
   width: 100%;
   margin-bottom: 1em;
 }
 
-input {
-  font-family: sans-serif;
-  box-sizing: border-box;
+input, select, label {
+  font-family: sans-serif;  
   margin: .1em;
   padding: .5em;  
   cursor: pointer;
@@ -37,7 +31,6 @@ select:focus, select:hover {
 input[type='submit'], input[type='reset'] {
   border-radius: 4px;
   font-size: 16px;
-  margin: .1em;
   border: 0;  
   color: #fff;
 }
@@ -59,6 +52,10 @@ input[type='reset']:focus, input[type='reset']:hover {
   background-color: #c30;
 }
 
+input[type='checkbox'] {
+  vertical-align: middle;
+}
+
 input[disabled] {
   cursor: default;
   background-color: #ccc;
@@ -67,24 +64,26 @@ input[disabled]:focus, input[disabled]:hover {
   background-color: #ccc;
 }
 
+input[type='text']:invalid,
+input[type='email']:invalid,
+input[type='password']:invalid {
+  border-color: #e41;
+  background-color: #fed;
+}
+
 label {
-  display: inline-block;
-  cursor:pointer;
-  margin: .1em;
-  padding: .5em;  
-  font-family: sans-serif;
+  display: inline-block;    
   color: #888;
-  font-size: 15px;
 }
 
 select {
-  padding: .5em;  
   cursor:pointer;
-  font-family: sans-serif;
+  font-size: 14px;
 }
 
 /*data columns*/
 *[data-columns] {
+  box-sizing: border-box;
   float: left;  
 }
 *[data-columns*='1'] {
@@ -126,13 +125,3 @@ select {
 *[data-columns*='both']{
   clear: both;
 }
-/*data columns*/
-
-/*input validation*/
-input[type='text']:invalid,
-input[type='email']:invalid,
-input[type='password']:invalid {
-  border-color: #e41;
-  background-color: #fed;
-}
-/*end actions  ""*/
