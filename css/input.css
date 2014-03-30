@@ -1,3 +1,7 @@
+@import url('//fonts.googleapis.com/css?family=Inconsolata');
+
+body, input, select, label {font-family: "Inconsolata", sans-serif}
+i {color: #E71}
 form {
   float: left; 
   width: 100%;
@@ -11,7 +15,12 @@ input, select, label {
   cursor: pointer;
   font-size: 15px;
 }
-
+license p{
+  text-align: center;
+  font-family: "Inconsolata";
+  font-weight: bold;
+  color: blue;    
+}
 input[type='text'], 
 input[type='email'],
 input[type='password'],

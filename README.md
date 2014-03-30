@@ -4,7 +4,7 @@ Input.css
 The **input.css** is an CSS library for helping all web developers.
 
 
-###[DEMO](http://rafaelcastrocouto.github.io/input.css/index.html)
+###[DEMO](http://leonardo403.github.io/input.css/index.html)
 
 
 ### How to use:

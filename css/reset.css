@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html,body{
 	margin: 0;
 	padding: 0;
@@ -5,4 +6,7 @@ html,body{
 	outline: 0;
 	list-style: none;
 	vertical-align: baseline;	
+}
+a{
+	text-decoration: none;
 }
