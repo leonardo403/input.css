@@ -1,7 +1,7 @@
 Input.css
 =========
 
-The **input.css** is an CSS library for helping all web developers.
+The **input.css** is an CSS library for helping all web developers in creation of  layouts using input tag.
 
 
 ###[DEMO](http://leonardo403.github.io/input.css/index.html)

@@ -2,19 +2,17 @@
 <html>
   <head>    
     <title>Input.css BETA</title>
-    
-    <meta name="Author" content="leonardo403" />
+    <meta name="author" content="Leonardo Lima - leonardo403@gmail.com" />
     <meta http-equiv="content-script-type" content="text/javascript" />    
     <meta http-equiv="content-style-type" content="text/css" />
-    <link href="css/input.css" rel="stylesheet" type="text/css" /> 
-    <link rel="stylesheet" type="text/css" href="css/input.min.css">
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-    
-    <style>body, input, select, label {font-family: "Inconsolata", sans-serif} i {color: #E71}</style>
+    <link rel="stylesheet" type="text/css" href="">
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/input.min.css" />         
   </head>
   <body>
-    <h1>Input.css <i>beta</i></h1>  
-    
+  <header>
+    <h1>Input.css <i>beta</i><img src="img/"></h1>
+  </header>    
     <h2>Forms</h2>
     <form>
       <input type="text" placeholder="Enter something here" data-columns="2">
@@ -23,14 +21,13 @@
         <option>CA</option>
         <option>IL</option>
       </select>
-      <input type="email" placeholder="Email" data-columns="3">
+      <input type="email" placeholder="Email" data-columns="2">
       <input type="password" placeholder="Password" data-columns="5">
       <label for="remember" data-columns="8"><input id="remember" type="checkbox"> Remember me </label>
       <input type="submit" value="Submit" data-columns="left">
       <input type="reset" value="Reset" data-columns>
       <input type="submit" value="Disabled" disabled data-columns>
     </form>
-
     <h2>Columns</h2>
     <form>
       <input type="text" placeholder="1" data-columns="2">
@@ -76,8 +73,62 @@
       <input type="text" placeholder="10" data-columns="10">
       <input type="text" placeholder="2" data-columns="2">
     </form>
-    <license><p><a href="http://opensource.org/licenses/MIT">The MIT License(MIT)</a></p></license>
+    <h2>Date</h2>
+    Birthday: <input type="date" placeholder="Date">
+    
+    <h2>Time</h2>    
+    Select a time: <input type="time" placeholder="Time">
+    
+    <h2>Date/Time</h2>
+     Birthday (date and time): <input type="datetime" placeholder="datetime">
+    
+    <h2>Color</h2>
+    Select your favorite color: <input type="color" placeholder="color">
 
+    <h2>Date time local</h2>
+    Birthday (date and time): <input type="datetime-local" placeholder="Date time local">
+    
+    <h2>File</h2>
+    Select a file: <input type="file" placeholder="file"> 
+    
+    <h2>Hidden</h2>
+    Define a hidden field (not visible to a user).<input type="hidden" name="country" value="Norway">
+    
+    <h2>Image</h2>
+    <input type="image" placeholder="Image" src="img/xen-panda-logo.jpg" alt="Submit"> 
+    
+    <h2>Month</h2>
+    Birthday (month and year): <input type="month" placeholder="month">
+    
+    <h2>Number</h2>
+    Quantity (between 1 and 5): <input type="number" placeholder="number" min="1" max="5">
+    
+    <h2>Radio</h2>
+    <input type="radio" name="gender" value="male"> Male<br>
+    <input type="radio" name="gender" value="female"> Female <br>
+    
+    <h2>Range</h2>
+    <input type="range" placeholder="Range" min="1" max="10">
+    
+    <h2>Search</h2>
+    Search website: <input type="search" placeholder="Search">
+    
+    <h2>Telephone</h2>
+    Telephone: <input type="tel" placeholder="Telephone">
+    
+    <h2>Url</h2>
+    Add your homepage: <input type="url" placeholder="Url">
+    
+    <h2>Week</h2>
+    Select a week: <input type="week" placeholder="week">
+
+
+
+    <footer>    
+    <license><p><a href="LICENSE" target="_blank">The MIT License(MIT)
+      &copy; Leonardo Lima</a></p>
+      </license>
+    </footer>    
     <!-- fork me ribbon -->
     <a href="https://github.com/leonardo403/input.css"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://github-camo.global.ssl.fastly.net/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
     
