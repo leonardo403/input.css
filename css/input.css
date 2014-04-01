@@ -5,7 +5,10 @@ body, input, select, label {font-family: "Inconsolata", sans-serif}
 /*header*/
 header {
   text-align: center;  
-  border-bottom: #E71 solid 2px;
+  border-bottom: #E71 solid 2px;  
+}
+.text-shadow{
+  text-shadow: 2px 2px 0px orange;
 }
 /*header*/
 
@@ -68,11 +71,13 @@ input[type='time']:focus, input[type='time']:hover,
 input[type='datetime']:focus, input[type='datetime']:hover,
 input[type='color']:focus, input[type='color']:hover,
 input[type='datetime-local']:focus, input[type='datetime-local']:hover,
+input[type='file']:focus, input[type='file']:hover, 
 input[type='hidden']:focus, input[type='hidden']:hover, 
 input[type='image']:focus, input[type='image']:hover,
 input[type='month']:focus, input[type='month']:hover,
 input[type='radio']:focus, input[type='radio']:hover,
 input[type='range']:focus, input[type='range']:hover,
+input[type='number']:focus, input[type='number']:hover,
 input[type='search']:focus, input[type='search']:hover,
 input[type='tel']:focus, input[type='tel']:hover,
 input[type='url']:focus, input[type='url']:hover,
@@ -85,7 +90,7 @@ input[type='text']:invalid,
 input[type='email']:invalid,
 input[type='password']:invalid {
   border-color: #e41;
-  background: hsla(0, 90%, 70%, 1);/*#fed*/
+  background: #fed;
 }
 input[type='submit'], input[type='reset'] {
   border-radius: 4px;
@@ -117,13 +122,16 @@ input[disabled] {
 input[disabled]:focus, input[disabled]:hover {
   background-color: #ccc;
 }
+
+
+
 /*data columns*/
 *[data-columns] {
   box-sizing: border-box;
   float: left;  
 }
 *[data-columns*='1'] {
-  width: calc(100% - .2em);    
+  width: calc(80.10% - .2em);    
 }
 *[data-columns*='2'] {
   width: calc(50% - .2em);

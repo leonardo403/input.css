@@ -11,5 +11,5 @@ The **input.css** is an CSS library for helping all web developers in creation o
 
 Add this line of code to your HTML:
 
-    <link rel="stylesheet" href="http://leonardo403.github.io/input.css/input.css">
+    <link rel="stylesheet" href="http://leonardo403.github.io/input.css/input.min.css">
 
