@@ -7,7 +7,7 @@ The **input.css** is a CSS library for helping web developers styling the HTML i
 ###[DEMO](http://leonardo403.github.io/input.css/index.html)
 
 
-### How to:
+### How to use:
 
 Add this to the head section of your HTML document:
 
