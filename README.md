@@ -12,4 +12,6 @@ The **input.css** is a CSS library for helping web developers styling the HTML i
 Add this to the head section of your HTML document:
 
     <link rel="stylesheet" href="http://leonardo403.github.io/input.css/input.min.css">
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/input.css/0.1/input.min.css">
+
 
