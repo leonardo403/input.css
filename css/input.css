@@ -1,13 +1,10 @@
-@import url("//fonts.googleapis.com/css?family=Inconsolata");
-
 body, input, select, label {font-family: "Inconsolata", sans-serif}
-
 /*header*/
 header {
   text-align: center;  
   border-bottom: #E71 solid 2px;  
 }
-.text-shadow{
+.shadow {
   text-shadow: 2px 2px 0px orange;
 }
 /*header*/
@@ -127,6 +124,10 @@ input[disabled]:focus, input[disabled]:hover {
 
 /*data columns*/
 *[data-columns] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
   box-sizing: border-box;
   float: left;  
 }
