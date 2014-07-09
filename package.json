@@ -1,9 +1,16 @@
 {
   "name": "input.css",
   "version": "1.0.1",
+  	"description": "The input.css an library css, for all developers use projects.",
+    "homepage": "http://leonardo403.github.io/input.css/index.html",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/leonardo403/input.css"
+},
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-less": "^0.11.3",
-    "grunt-contrib-uglify": "^0.5.0"
+    "grunt-contrib-uglify": "^0.5.0",
+    "grunt-contrib-watch": "^0.6.1"
   }
 }

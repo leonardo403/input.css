@@ -1,10 +1,25 @@
 module.exports = function(grunt) {
-  grunt.initConfig({
-     uglify: {
-        'css/input.css': 'css/input.min.css'
-     }
-  });
+        'use strict'
 
+  var gruntConfig = {
+     pkg: grunt.file.readJSON('package.json'),
+     uglify: {
+        //build:{
+          files:{
+            'css/input.min.css': ['css/input.css']
+        //},
+      },
+    },
+     watch: {
+      files: ['css/*.css','input.css/*.html'],
+      tasks: ['uglify']
+    },
+  };
+  grunt.initConfig(gruntConfig);
   // carrega plugins
+  grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-watch');
+
+  grunt.registerTask('default', ['watch', 'uglify']);
 };
