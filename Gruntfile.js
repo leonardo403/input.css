@@ -4,11 +4,7 @@ module.exports = function(grunt) {
   var gruntConfig = {
      pkg: grunt.file.readJSON('package.json'),
      uglify: {
-        //build:{
-          files:{
-            'css/input.min.css': ['css/input.css']
-        //},
-      },
+        'css/input.min.css': 'css/input.css'
     },
      watch: {
       files: ['css/*.css','input.css/*.html'],
