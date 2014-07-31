@@ -15,6 +15,7 @@ The **input.css** is a CSS library for helping web developers styling the HTML i
 	<link rel="stylesheet" href="//cdn.jsdelivr.net/input.css/0.1/input.min.css">
 
 2)Code  HTML setup with this below code:
-<input type="text" placeholder="1" data-columns="1">
+
+input type="text" placeholder="1" data-columns="1"
 
 
